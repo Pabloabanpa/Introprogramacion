@@ -1,3 +1,0 @@
-
-var1 = "hace mucho calor"
-print(var1)
