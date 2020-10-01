@@ -1,0 +1,5 @@
+radio = str(input("introduzca el valor del radio de un circulo:"))
+pi = float(3.141592)
+área = float( pi * radio**2)
+perímetro = (2* pi * radio)
+mrnsaje = print(f"la area del circilo es iagual a: {área}, el perimetro del circulo es igual a {perímetro}")
