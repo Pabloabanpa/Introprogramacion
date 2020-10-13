@@ -1,12 +1,15 @@
-dia =  int(input("Ingrese su día de nacimineto:"))
-mes = int(input("Ingrese su mes e nacimiento:"))
-año = int(input("Ingrese su año de nacimiento:"))
-
 from time import localtime
-t = localtime(12, 10, 2020)
+t=localtime()
 t.tm_mday
 
 t.tm_mon
 
 t.tm_year
 
+day= int(input("Ingrese su dia de nacimiento:"))
+mes= int(input("Ingrese su mes de nacimiento:"))
+anno= int(input("Ingrese su año de nacimiento:"))
+
+edad= t.tm_year-anno
+
+print("Usteed tiene",edad,"annos")
