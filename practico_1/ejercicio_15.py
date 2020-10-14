@@ -11,6 +11,7 @@ def collatz(num):
 secuencia = collatz(num)
 
 for i in secuencia :
-    print(i,end=" ")
+    print(i,end="")
+    print(i*"*")
 
-#falta la parte grafica
+
